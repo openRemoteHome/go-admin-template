@@ -3,13 +3,11 @@ package common
 
 import (
 	"go-admin-template/handler/common"
-	"go-admin-template/middleware"
 
 	"github.com/gin-gonic/gin"
 )
 
 func RegisterCommonRoute(e *gin.Engine) {
 	g := e.Group("")
-	g.Use(middleware.JwtMiddleware)
 	g.POST("/upload/image", common.UploadImageHandle)
 }

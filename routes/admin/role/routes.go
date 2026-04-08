@@ -3,14 +3,12 @@ package role
 
 import (
 	"go-admin-template/handler/admin/role"
-	"go-admin-template/middleware"
 
 	"github.com/gin-gonic/gin"
 )
 
 func RegisterAdminRoleRoute(e *gin.Engine) {
 	g := e.Group("")
-	g.Use(middleware.JwtMiddleware, middleware.AuthMiddleware)
 	g.GET("/admin/role", role.ListHandle)
 	g.GET("/admin/role/:id", role.DetailHandle)
 	g.POST("/admin/role", role.AddHandle)

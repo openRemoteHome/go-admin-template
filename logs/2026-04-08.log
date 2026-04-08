@@ -1,0 +1,32 @@
+time=2026-04-08 14:40:04.896 level=fatal msg=dial tcp 192.168.1.29:6379: connect: connection refused
+go-admin-template/pkg/redis.Setup
+	/Users/Max/Socrates/code/go-admin-template/pkg/redis/db.go:26
+main.main
+	/Users/Max/Socrates/code/go-admin-template/go-admin-template.go:47
+runtime.main
+	/opt/homebrew/opt/go/libexec/src/runtime/proc.go:290
+runtime.goexit
+	/opt/homebrew/opt/go/libexec/src/runtime/asm_arm64.s:1447 file=/Users/Max/Socrates/code/go-admin-template/pkg/redis/db.go:26
+time=2026-04-08 14:43:12.348 level=info msg=listen to 0.0.0.0:8888 file=/Users/Max/Socrates/code/go-admin-template/go-admin-template.go:58
+time=2026-04-08 14:43:38.605 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=::1 status=404 traceId=2743bad6-f108-4959-acc5-6e85b3b1f9b8 uri=[GET]/ useTime=3.875µs
+time=2026-04-08 14:43:38.676 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=::1 status=404 traceId=800d5b40-8c0f-4518-8b81-180d3aaf167b uri=[GET]/favicon.ico useTime=3.084µs
+time=2026-04-08 14:43:51.339 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=404 traceId=0b3b54f3-2fad-4a3e-8f6b-e517aa3d5f7f uri=[GET]/ useTime=677.75µs
+time=2026-04-08 14:43:51.422 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=404 traceId=e519b065-c28d-4384-99a4-0d1045c6e48c uri=[GET]/favicon.ico useTime=11.75µs
+time=2026-04-08 14:44:18.270 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=192.168.1.29 status=404 traceId=169897aa-b6ae-4a62-af09-2ba442e03da3 uri=[GET]/ useTime=18.708µs
+time=2026-04-08 14:44:18.345 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=192.168.1.29 status=404 traceId=dec9cea1-4f13-452f-8deb-9ea758b2d483 uri=[GET]/favicon.ico useTime=2.125µs
+time=2026-04-08 14:44:22.911 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=404 traceId=bd713852-8dc8-4678-bcd1-d303bccac260 uri=[GET]/ useTime=12.75µs
+time=2026-04-08 14:44:22.979 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=404 traceId=703f5cd3-673e-4dc4-9bac-c7afafbfcb7c uri=[GET]/favicon.ico useTime=2.375µs
+time=2026-04-08 14:44:59.444 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=422f26c8-6b4e-4f48-bed8-b445367403a3 uri=[GET]/code useTime=77.973375ms
+time=2026-04-08 14:46:09.574 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=301 traceId=9e5b2af6-20d6-47d4-ac23-02a11a4d76aa uri=[GET]/swagger/index.html useTime=1.634125ms
+time=2026-04-08 14:46:09.579 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=c7664336-15e8-41e1-80d5-97b19fd54eff uri=[GET]/swagger/ useTime=2.721959ms
+time=2026-04-08 14:46:12.751 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=a89c97b9-9146-4e34-aabd-80a749a9f2e4 uri=[GET]/swagger/swagger.json useTime=1.597125ms
+time=2026-04-08 14:50:48.346 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=3e3dec75-918b-457f-9b19-78a69b6bc9dc uri=[GET]/admin/user useTime=904.5µs
+time=2026-04-08 14:54:19.181 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=4b82b361-bd2a-44bb-8489-87a8abf2ce76 uri=[GET]/admin/user useTime=51.167µs
+time=2026-04-08 14:54:25.161 level=warning msg=closed api server file=/Users/Max/Socrates/code/go-admin-template/go-admin-template.go:67
+time=2026-04-08 14:54:59.832 level=info msg=listen to 0.0.0.0:8888 file=/Users/Max/Socrates/code/go-admin-template/go-admin-template.go:58
+time=2026-04-08 14:55:15.474 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=d36c8210-3f59-4aec-b33e-17f53a565301 uri=[GET]/admin/user useTime=4.007125ms
+time=2026-04-08 14:55:16.369 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=70c7b1fb-b938-4094-9f48-7723019f0b40 uri=[GET]/admin/user useTime=1.839875ms
+time=2026-04-08 14:55:16.897 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=591af31b-7349-4988-8f26-b4789d40dda0 uri=[GET]/admin/user useTime=1.65125ms
+time=2026-04-08 14:55:17.239 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 status=200 traceId=56aa7394-ece9-4ae6-9fdc-26612e867faf uri=[GET]/admin/user useTime=1.952625ms
+time=2026-04-08 14:56:18.560 level=info file=/Users/Max/Socrates/code/go-admin-template/middleware/request_log.go:75 ip=127.0.0.1 request=page=1&pageSize=10 status=200 traceId=5ce3c269-9800-494b-bf3e-c6f040a38c4a uri=[GET]/admin/user useTime=1.053208ms
+time=2026-04-08 14:59:13.121 level=warning msg=closed api server file=/Users/Max/Socrates/code/go-admin-template/go-admin-template.go:67

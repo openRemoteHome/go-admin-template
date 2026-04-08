@@ -3,14 +3,12 @@ package auth
 
 import (
 	"go-admin-template/handler/admin/auth"
-	"go-admin-template/middleware"
 
 	"github.com/gin-gonic/gin"
 )
 
 func RegisterAdminAuthRoute(e *gin.Engine) {
 	g := e.Group("")
-	g.Use(middleware.JwtMiddleware, middleware.AuthMiddleware)
 	g.GET("/admin/auth", auth.ListHandle)
 	g.POST("/admin/auth", auth.AddHandle)
 	g.PUT("/admin/auth/:id", auth.EditHandle)

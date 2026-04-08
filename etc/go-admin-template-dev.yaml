@@ -1,26 +1,26 @@
 Server:
   Name: admin
   Host: 0.0.0.0
-  Port: 8756
+  Port: 8888
 
 Jwt:
-  Secret:
-  Expire:
+  Secret: 99fb6dae-caa4-45d1-8635-8ce8e2078d76
+  Expire: 24
 
 Log:
-  Dir:
-  Level:
+  Dir: /var/logs/go-admin-template
+  Level: trace # 合法选项 "panic" "fatal" "error" "warn" "warning" "info" "debug" "trace"
 
 Mysql:
-  Host:
-  Port:
-  User:
-  Pwd:
-  Db:
+  Host: 192.168.1.29
+  Port: 3306
+  User: root
+  Pwd: Admin123
+  Db: go-admin-template
 
 Redis:
-  Host:
-  Port:
-  User:
-  Pwd:
-  Db:
+  Host: 192.168.1.29
+  Port: 6379
+  User: admin
+  Pwd: admin
+  Db: 0

@@ -12,15 +12,15 @@ Log:
   Level: trace # 合法选项 "panic" "fatal" "error" "warn" "warning" "info" "debug" "trace"
 
 Mysql:
-  Host: 127.0.0.1
-  Port: 3309
+  Host: 192.168.1.29
+  Port: 3306
   User: root
-  Pwd: 123456
+  Pwd: Admin123
   Db: go-admin-template
 
 Redis:
-  Host: 127.0.0.1
+  Host: 192.168.1.29
   Port: 6379
-  User:
-  Pwd:
+  User: admin
+  Pwd: admin
   Db: 0
